@@ -14,6 +14,10 @@ public class TestRunner {
 	
 	classesToTest.add(FactorialTests.class);
 	classesToTest.add(HelloTests.class);
+	classesToTest.add(LinkTests.class);
+	classesToTest.add(HomePageTests.class);
+	classesToTest.add(FibonacciTests.class);
+	classesToTest.add(VerifyCathyImagesTests.class);
 	
 	// For all test classes added, loop through and use JUnit
 	// to run them.
